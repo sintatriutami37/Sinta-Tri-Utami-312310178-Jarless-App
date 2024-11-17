@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/logokecil1"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="146sp"
+        android:layout_marginTop="146sp"
+        android:layout_marginRight="146sp"
+        android:contentDescription="@string/Logo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/sambutan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logokecil1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Sambutan"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sambutan"
+        android:layout_centerHorizontal="true"
+        android:text="@string/slogan"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppins"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/User"
+        android:textColor="@color/green"/>
+    <EditText
+        android:layout_width="348dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:background="@drawable/edittextgreen"
+        android:inputType="textPersonName"
+        android:layout_below="@id/name"
+        android:fontFamily="@font/poppins"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/User"
+        android:paddingStart="16dp"
+        android:paddingEnd="100dp"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/poppins"
+        android:layout_marginEnd="49dp"
+        android:text="@string/pass"
+        android:textColor="@color/green"
+        />
+    <EditText
+        android:id="@+id/pas"
+        android:layout_width="348dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:background="@drawable/edittextgreen"
+        android:inputType="textPassword"
+        android:layout_below="@id/password"
+        android:hint="@string/pass"
+        android:autofillHints="password"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="149sp"
+        android:layout_height="68sp"
+        android:background="@drawable/btcolor"
+        android:textColor="@color/white"
+        android:text="@string/Login"
+        android:layout_below="@id/pas"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:textColor="@color/green"
+        android:layout_below="@id/button"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:layout_below="@id/button"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="300dp"
+        android:textSize="18sp"
+        android:textColor="@color/green"
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".overflow"
+    android:background="@color/green">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="770dp"
+        android:src="@drawable/overfloww"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/sign"
+        />
+    <ImageView
+        android:id="@+id/logokecil1"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="146sp"
+        android:layout_marginTop="146sp"
+        android:layout_marginRight="146sp"
+        android:contentDescription="@string/Logo"
+        android:src="@drawable/logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logokecil1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/slogan"
+        android:id="@+id/slogan1"
+        android:textColor="@color/green"
+        android:fontFamily="@font/poppins"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/akunn"
+        android:layout_below="@id/slogan1"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/account"
+        android:id="@+id/akun"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/backto"
+        android:layout_below="@id/akun"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="90dp"
+        android:contentDescription="@string/home"
+
+</RelativeLayout>

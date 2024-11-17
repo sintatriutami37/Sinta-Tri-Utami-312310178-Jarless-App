@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:background="@color/green">
+
+
+    <ImageView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/sign"
+        android:src="@drawable/signuppage" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="97dp"
+        android:layout_height="97dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/Logo"
+        android:layout_marginTop="210dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/sambutan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sambutan"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:layout_below="@id/sambutan"
+        android:textColor="@color/green"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/User"
+        android:textColor="@color/green"/>
+    <EditText
+        android:layout_width="348dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:autofillHints="name"
+        android:background="@drawable/edittextgreen"
+        android:inputType="textPersonName"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/User"
+        android:paddingStart="16dp"
+        android:paddingEnd="100dp"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="49dp"
+        android:text="@string/pass"
+        android:textColor="@color/green"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="348dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:autofillHints="password"
+        android:background="@drawable/edittextgreen"
+        android:inputType="textPassword"
+        android:layout_below="@id/password"
+        android:hint="@string/pass"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        style="@android:style/Widget.Button"
+        android:id="@+id/button"
+        android:layout_width="149sp"
+        android:layout_height="68sp"
+        android:background="@drawable/btcolor"
+        android:textColor="@color/white"
+        android:text="@string/sign2"
+        android:layout_below="@id/pass"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/poppins"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        />
+
+</RelativeLayout>

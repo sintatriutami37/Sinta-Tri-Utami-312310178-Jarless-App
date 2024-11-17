@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productpouch"
+    android:background="@color/background">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:contentDescription="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/pouch"
+        android:contentDescription="@string/pouchpr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/productpouch" />
+
+    <TextView
+        android:id="@+id/prpch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="@string/pouchpr"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/sign2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/sign"
+        android:src="@drawable/signuppage" />
+
+    <ImageView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/sign"
+        android:src="@drawable/signuppage" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pouchpr"
+        android:fontFamily="@font/poppins"
+        android:layout_marginStart="40dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/green"
+        >
+    <TextView
+        android:id="@+id/hrg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pouchhrg"
+        android:fontFamily="@font/poppins"
+        android:layout_marginStart="230dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:textColor="@color/green"
+        >
+    <TextView
+        android:id="@+id/deskrip"
+        android:fontFamily="@font/poppins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/despouch"
+        android:layout_below="@id/textView3"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/green"
+        android:textSize="12sp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="68sp"
+        android:background="@drawable/btcolor"
+        android:textColor="@color/white"
+        android:text="@string/adtochart"
+        android:layout_below="@id/deskrip"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/rect"
+        android:contentDescription="@string/rect"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:src="@drawable/rectangle"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.5"
+        android:contentDescription="@string/cart"
+        android:src="@drawable/chart" />
+
+    <ImageButton
+        android:id="@+id/homee"
+        android:contentDescription="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+       android:src="@drawable/hom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/acc"
+        android:contentDescription="@string/accountt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/account"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.5"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HOME"
+    android:background="@drawable/bggradient">
+
+<ImageView
+    android:id="@+id/logokecil2"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_marginStart="41dp"
+    android:layout_marginTop="63dp"
+    android:src="@drawable/logo"
+    android:contentDescription="@string/Logo"
+    />
+
+    <ImageView
+        android:id="@+id/dot"
+        android:contentDescription="@string/over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dot"
+        android:layout_marginEnd="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="63sp"/>
+
+    <TextView
+        android:id="@+id/slogan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@id/logokecil2"
+        android:layout_marginStart="30sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:fontFamily="@font/fredokaone"
+        />
+    <TextView
+        android:fontFamily="@font/poppins"
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slogan"
+        android:layout_below="@id/slogan1"
+        android:layout_marginStart="40sp"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_below="@id/slogan"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/green"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="35dp"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/search"
+        android:hint="@string/Search"
+        android:autofillHints="searhterm"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:layout_below="@id/welcome"
+        android:drawableEnd="@drawable/seline"
+        android:elevation="3dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="50dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:contentDescription="@string/pouchpr"
+        android:id="@+id/grupprod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupproduct"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:contentDescription="@string/despouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/deskripsi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/grupprod"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/rect"
+        android:contentDescription="@string/rect"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:src="@drawable/rectangle"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.5"
+        android:contentDescription="@string/cart"
+        android:src="@drawable/chart" />
+
+    <ImageButton
+        android:id="@+id/homee"
+        android:contentDescription="@string/home"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/hom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/acc"
+        android:contentDescription="@string/accountt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/account"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.5"/>
+
+
+</RelativeLayout>

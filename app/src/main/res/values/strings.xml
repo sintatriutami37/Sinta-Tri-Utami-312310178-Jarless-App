@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Jarles App</string>
+    <string name="slogan"> Tradisional dan Trendi</string>
+    <string name="Logo"> Logo </string>
+    <string name="Sambutan"> Selamat Datang Di JARLES APP </string>
+    <string name="User"> Username </string>
+    <string name="Pass"> Password </string>
+    <string name="Login"> LOGIN </string>
+    <string name="welcome"> Selamat Datang Sinta Tri Utami</string>
+    <string name="Search"> Cari Disini </string>
+    <string name="pass"> Password </string>
+    <string name="account"> Dont Have Account?</string>
+    <string name="sign"> Sign Up </string>
+    <string name="sign2"> SIGN UP </string>
+    <string name="pouchpr"> Pouch Serut</string>
+    <string name="lurikpr"> Kain Lurik </string>
+    <string name="home"> Home </string>
+    <string name="rect"> rect </string>
+    <string name="cart"> Chart</string>
+    <string name="accountt"> Acc </string>
+    <string name="over"> Overflow </string>
+    <string name="back"> back </string>
+    <string name="pouchhrg"> Rp. 5.000</string>
+    <string name="despouch"> Ukuran 10 x 12 cm\n\n\tBisa digunakan untuk:\n\t- Dompet\n\t- Souvenir\n\nSedang mencari inspirasi barang murah yang kecil, simpel, dan cocok untuk souvenir?\n\nKamu bisa memilih Pouch serut mini dari Jarik Lestari.</string>
+    <string name="lurikhrg"> Rp. 20.000 </string>
+    <string name="deslurik"> 1. Panjang 2.5-2, 7meter \n 2. Lebar 50-55cm \n 3. Kain kasar setelah dicuci halus sendiri</string>
+    <string name="hai"> Hai, Sinta Tri Utami </string>
+    <string name="nama"> Sinta Tri Utami </string>
+    <string name="gmail"> sintatriutami37@gmail.com</string>
+    <string name="contact"> Contact Us ! </string>
+    <string name="nohp"> +628-526-357-697 </string>
+    <string name="ig"> sintatriu </string>
+    <string name="adtochart"> ADD TO CHART </string>
+
+</resources>
