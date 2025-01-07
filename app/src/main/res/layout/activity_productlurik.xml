@@ -29,7 +29,7 @@
         android:id="@+id/prpch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="360dp"
         android:fontFamily="@font/poppins"
         android:text="@string/lurikpr"
         android:textColor="@color/green"
@@ -64,8 +64,7 @@
         android:textSize="28sp"
         android:textStyle="bold"
         android:layout_marginTop="480dp"
-        android:textColor="@color/green"
-        >
+        android:textColor="@color/green"/>
     <TextView
         android:id="@+id/hrg"
         android:layout_width="wrap_content"
@@ -77,8 +76,7 @@
         android:textSize="28sp"
         android:textStyle="bold"
         android:layout_marginTop="480dp"
-        android:textColor="@color/green"
-        >
+        android:textColor="@color/green"/>
     <TextView
         android:id="@+id/deskrip"
         android:layout_width="wrap_content"
@@ -92,18 +90,15 @@
         android:layout_centerHorizontal="true"
         android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="200sp"
-        android:layout_height="68sp"
-        android:background="@drawable/btcolor"
-        android:textColor="@color/white"
-        android:text="@string/adtochart"
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/deskrip"
-        android:layout_marginTop="20dp"
+        android:src="@drawable/addtochart"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
-        />
+        android:contentDescription="@string/adtochart"
+        android:id="@+id/addtochart" />
 
     <ImageView
         android:id="@+id/rect"
@@ -120,6 +115,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginBottom="10dp"
         android:alpha="0.5"
+        android:id="@+id/keranjang"
         android:contentDescription="@string/cart"
         android:src="@drawable/chart" />
 

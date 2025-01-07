@@ -15,7 +15,7 @@
     android:layout_marginStart="41dp"
     android:layout_marginTop="63dp"
     android:src="@drawable/logo"
-    android:contentDescription="@string/Logo"
+    android:contentDescription="@string/logo"
     />
 
     <ImageView
@@ -81,11 +81,20 @@
         android:layout_marginTop="10dp"/>
     <ImageView
         android:contentDescription="@string/pouchpr"
-        android:id="@+id/grupprod"
+        android:id="@+id/produkserut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/grupproduct"
-        android:layout_centerHorizontal="true"
+        android:src="@drawable/produkserut"
+        android:layout_marginStart="40dp"
+        android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:id="@id/lurik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lurikpr"
+        android:src="@drawable/produklurik"
+        android:layout_margin="220dp"
         android:layout_centerVertical="true"
         />
     <ImageView
@@ -94,9 +103,11 @@
         android:layout_height="wrap_content"
         android:src="@drawable/deskripsi"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/grupprod"
+        android:layout_below="@id/produkserut"
         android:layout_marginTop="40dp"
         />
+
+
 
     <ImageView
         android:id="@+id/rect"
@@ -107,6 +118,7 @@
         android:layout_alignParentBottom="true"/>
 
     <ImageButton
+        android:id="@+id/chartbutton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"

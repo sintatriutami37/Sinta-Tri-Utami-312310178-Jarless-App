@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Jarles App</string>
     <string name="slogan"> Tradisional dan Trendi</string>
-    <string name="Logo"> Logo </string>
-    <string name="Sambutan"> Selamat Datang Di JARLES APP </string>
+    <string name="logo"> Logo </string>
+    <string name="sambutan"> Selamat Datang Di JARLES APP </string>
     <string name="User"> Username </string>
     <string name="Pass"> Password </string>
-    <string name="Login"> LOGIN </string>
+    <string name="login"> LOGIN </string>
     <string name="welcome"> Selamat Datang Sinta Tri Utami</string>
     <string name="Search"> Cari Disini </string>
     <string name="pass"> Password </string>

@@ -12,54 +12,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JarlesApp"
         tools:targetApi="31">
+
+        <!-- Main Page -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Page -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- Sign Up Page -->
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+
+        <!-- Home Page -->
+        <activity
+            android:name=".HOME"
+            android:exported="true" />
+
+        <!-- Overflow Page -->
         <activity
             android:name=".overflow"
             android:exported="false" />
-        <activity
-            android:name=".shop"
-            android:exported="false" />
+
+        <!-- Product Pages -->
         <activity
             android:name=".productlurik"
             android:exported="false" />
         <activity
             android:name=".productpouch"
             android:exported="false" />
+
+        <!-- Shop Page -->
         <activity
-            android:name=".pouch"
+            android:name=".shop"
             android:exported="false" />
+
+        <!-- Account Page -->
         <activity
             android:name=".Acount"
             android:exported="false" />
-        <activity
-            android:name=".HOME"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".SignUp"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

@@ -14,7 +14,7 @@
         android:layout_marginStart="41dp"
         android:layout_marginTop="63dp"
         android:src="@drawable/logo"
-        android:contentDescription="@string/Logo"
+        android:contentDescription="@string/logo"
         />
 
     <ImageView
@@ -72,6 +72,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/checkout"
         android:layout_below="@id/lurik"
+        android:id="@+id/checkout"
         android:layout_marginTop="10dp"
         android:contentDescription="@string/cart"
         />
@@ -89,6 +90,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="56dp"
         android:layout_marginBottom="10dp"
+        android:id="@+id/keranjang"
         android:alpha="0.5"
         android:contentDescription="@string/cart"
         android:src="@drawable/chart" />
